@@ -1,4 +1,10 @@
-# Wiringpi
+# Lager keezer
+
+Tempature control a chest freezer with raspberry pi, GPIO code signals and thermostat.
+
+## Setup
+
+### Wiringpi
 
 1. To obtain WiringPi using GIT:
 ```
@@ -23,7 +29,7 @@ gpio -v
 gpio readall
 ```
 
-# RPiutils
+### RPiutils
 1. From your RPi, clone this archive:
 ```
 git clone --recursive git://github.com/ninjablocks/433Utils.git (recursive ensure that the rc-switch submodule gets populated which is needed by RPi_utils)
@@ -44,7 +50,7 @@ cd 433Utils/RPi_utils
 ./codesend *REMOTE CODE*
 ```
 
-# Temp and code censor
+### Temp and code censor
 
 1. To add support, we first need to open up the boot config file, and this can be done by running the following command:
 ```
