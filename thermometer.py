@@ -28,9 +28,3 @@ def read_temp():
         temp_f = temp_c * 9.0 / 5.0 + 32.0
         return temp_c, temp_f
 
-def write_to_log(text):
-    f = open('/home/pi/Documents/keezer/temp_history.txt', 'w') 
-    now = datetime.datetime.now()
-    f.write('{} {}'.format(now, text))
-    f.close()
-
