@@ -34,11 +34,3 @@ def write_to_log(text):
     f.write('{} {}'.format(now, text))
     f.close()
 
-#while True:
-#    # print(read_temp())
-#    temp_data = read_temp()
-#    print datetime.datetime.now()
-#    print temp_data
-#    write_to_log(temp_data)
-#    time.sleep(1800)
-
